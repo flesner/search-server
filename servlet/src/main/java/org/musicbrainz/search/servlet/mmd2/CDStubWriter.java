@@ -92,7 +92,7 @@ public class CDStubWriter extends ResultsWriter {
             String comment = doc.get(CDStubIndexField.COMMENT);
             if (isNotNoValue(comment))
             {
-                cdstub.setComment(comment);
+                cdstub.setDisambiguation(comment);
             }
 
             String barcode = doc.get(CDStubIndexField.BARCODE);
